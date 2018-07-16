@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup as bs
 import urllib.request as ur
-import src.Line.Line通知.LineNotifyIF as ln
+import src.Line.LineNotify.LineNotifyIF as ln
 
 def Soup(url):
     req = ur.urlopen(url)

@@ -2,8 +2,8 @@
 import math
 
 #yahoo!形態素解析
-from src.AI.sample.chapter03 import morphological
-from src.AI.common.log import myLog
+from AI.sample.chapter03 import morphological
+from AI.common.log import myLog
 
 def getwords(doc):
 
